@@ -46,14 +46,14 @@ void main()
         }
     }
     
-    /*for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         if(c>=at[i])
             c+=bt[i];
         else
             c+=at[i]-ct[i-1]+bt[i];
         ct[i]=c;
-    }*/
+    }
     
     //turnaround time
     for(int i=0;i<n;i++)
